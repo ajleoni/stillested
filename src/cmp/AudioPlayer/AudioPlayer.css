@@ -1,0 +1,16 @@
+.audio-player {
+    margin-block: 1rem;
+}
+
+.audio-title {
+    height: 54px;
+    background-color: #eee;
+    border-radius: 26px;
+    margin-right: 1rem;
+    padding-inline: 1rem;
+    align-items: center;
+    width: 60%;
+}
+
+.audio-title p {
+    font-size: var(--font-S);}
