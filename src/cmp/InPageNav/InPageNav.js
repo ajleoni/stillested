@@ -17,25 +17,25 @@ export const InPageNav = () => {
     <nav id="in-page-nav">
         <Link to="terapi">
         <section className="nav-box">
-            <figure className="nav-img"><img src={img1}/></figure>
+            <figure className="nav-img"><img src={img1} alt='two people talking'/></figure>
             <aside className="nav-subtitle"><h2>{subText.text1}</h2></aside>
         </section>
         </Link>      
         <Link to="metode">
             <section className="nav-box">
-                <figure className="nav-img"><img src={img2}/></figure>
+                <figure className="nav-img"><img src={img2} alt='person under a tree'/></figure>
                 <aside className="nav-subtitle"><h2>{subText.text2}</h2></aside>
             </section>
         </Link>        
         <Link to="boeger">
             <section className="nav-box">
-                <figure className="nav-img"><img src={img3}/></figure>
+                <figure className="nav-img"><img src={img3} alt='mindfulness books'/></figure>
                 <aside className="nav-subtitle"><h2>{subText.text3}</h2></aside>
             </section>
         </Link>
         <Link to="ressourcer">
             <section className="nav-box">
-                <figure className="nav-img"><img src={img4}/></figure>
+                <figure className="nav-img"><img src={img4} alt='smiling face'/></figure>
                 <aside className="nav-subtitle"><h2>{subText.text4}</h2></aside>
             </section>
         </Link>

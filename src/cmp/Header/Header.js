@@ -1,10 +1,7 @@
-import React, {useEffect} from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import './Header.css';
 import logo from './StilleStedLogo.png';
-
-const topNav = document.querySelector(".top-nav");
-const navToggle = document.querySelector(".nav-toggle");
 
 export const Header = (props) => {
     const handleClick = (e) => {
@@ -37,7 +34,7 @@ export const Header = (props) => {
   return (
     <header>
         <div id="logo-box">
-            <a href='https://www.stillested.dk'><img id="logo" src={logo}/></a>
+            <a href='https://www.stillested.dk'><img id="logo" alt='Stillested logo' src={logo}/></a>
             <div id="logo-subtitle"><h1>Terapi og mindfulness ved psykolog Sabrina Leoni</h1>
             </div>
         </div>
