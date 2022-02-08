@@ -34,7 +34,7 @@ export const Header = (props) => {
   return (
     <header>
         <div id="logo-box">
-            <a href='https://www.stillested.dk'><img id="logo" alt='Stillested logo' src={logo}/></a>
+            <a href='https://stillested.netlify.com'><img id="logo" alt='Stillested logo' src={logo}/></a>
             <div id="logo-subtitle"><h1>Terapi og mindfulness ved psykolog Sabrina Leoni</h1>
             </div>
         </div>
