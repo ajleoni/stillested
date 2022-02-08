@@ -33,10 +33,10 @@ export const MethodPage = () => {
       <p>{sectionText.p3}</p>
     </section>
     <section className='carousel flex'>
-      <div className='carousel-img' style={style1}></div>
-      <div className='carousel-img' style={style2}></div>
-      <div className='carousel-img' style={style3}></div>
-      <div className='carousel-img' style={style4}></div>
+      <div className='carousel-img' style={style1} alt=""></div>
+      <div className='carousel-img' style={style2} alt=""></div>
+      <div className='carousel-img' style={style3} alt=""></div>
+      <div className='carousel-img' style={style4} alt=""></div>
      </section>
      </>
     );

@@ -26,7 +26,7 @@ export const ContactPage = () => {
       </article>
       <aside className='1of3-columns'>
         <div>
-          <img src={contactProfile}></img>
+          <img src={contactProfile} alt="a picture of Sabrina Justesen Leoni"></img>
         </div>
       </aside>
       <article className='1of3-columns'>

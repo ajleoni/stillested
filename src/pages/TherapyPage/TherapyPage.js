@@ -87,10 +87,10 @@ export const TherapyPage = () => {
     </section>
     <p>{midText.p3}</p>
     <section className='carousel flex'>
-      <div className='carousel-img' style={style1}></div>
-      <div className='carousel-img' style={style2}></div>
-      <div className='carousel-img' style={style3}></div>
-      <div className='carousel-img' style={style4}></div>
+      <div className='carousel-img' style={style1} alt=""></div>
+      <div className='carousel-img' style={style2} alt=""></div>
+      <div className='carousel-img' style={style3} alt=""></div>
+      <div className='carousel-img' style={style4} alt=""></div>
      </section>
      <section>
        <h3>{wtText.h3}</h3>
@@ -98,10 +98,10 @@ export const TherapyPage = () => {
        <p>{wtText.p2}</p>
      </section>
      <section className='carousel flex'>
-      <div className='carousel-img' style={style5}></div>
-      <div className='carousel-img' style={style6}></div>
-      <div className='carousel-img' style={style7}></div>
-      <div className='carousel-img' style={style8}></div>
+      <div className='carousel-img' style={style5} alt=""></div>
+      <div className='carousel-img' style={style6} alt=""></div>
+      <div className='carousel-img' style={style7} alt=""></div>
+      <div className='carousel-img' style={style8} alt=""></div>
      </section>
      
     </>
