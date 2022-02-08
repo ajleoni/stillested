@@ -14,7 +14,7 @@ subText.text4 = 'Guidede meditationer og ressourcer';
 
 export const InPageNav = () => {
   return (
-    <nav id="in-page-nav">
+    <nav id="in-page-nav" className="flex">
         <Link to="terapi">
         <section className="nav-box">
             <figure className="nav-img"><img src={img1} alt='two people talking'/></figure>

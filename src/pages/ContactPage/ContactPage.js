@@ -19,17 +19,17 @@ contactInfo.c3 = <a href='https://www.linkedin.com/in/sabrinaleoni'>https://www.
 export const ContactPage = () => {
   return (
     <section className='article-3-columns flex'>
-      <article className='1of3-columns'>
+      <article className='oneThird-to-all'>
         <h2>{contactInfo.h2}</h2>
         <p>{contactInfo.p1}</p>
         <p>{contactInfo.p2}</p>
       </article>
-      <aside className='1of3-columns'>
+      <aside className='oneThird-to-all'>
         <div>
           <img src={contactProfile} alt="Sabrina Justesen Leoni"></img>
         </div>
       </aside>
-      <article className='1of3-columns'>
+      <article className='oneThird-to-all'>
       <p className='contact-details'><strong>{contactInfo.l1}</strong>{contactInfo.c1}</p>
       <p className='contact-details'><strong>{contactInfo.l2}</strong>{contactInfo.c2}</p>
       <p className='contact-details'><strong>{contactInfo.l3}</strong>{contactInfo.c3}</p>

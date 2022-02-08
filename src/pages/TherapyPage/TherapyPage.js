@@ -52,7 +52,7 @@ export const TherapyPage = () => {
   return (
     <>
     <section className='article-left-text-50 flex'>
-      <article>
+      <article className="oneHalf-to-all">
         <h2>{therapyText.h2}</h2>
         <p>{therapyText.p1}</p>
         <p>{therapyText.p2}</p>
@@ -64,19 +64,19 @@ export const TherapyPage = () => {
           <li>{therapyText.b5}</li>
         </ul>
       </article>
-      <aside>
+      <aside className="oneHalf-to-all">
         <div>
           <img src={officePicture} alt=""></img>
         </div>
       </aside>
     </section>
     <section className='flex'>
-      <article>
+      <article className="oneHalf-to-all">
         <br /><br />
         <p>{midText.p1}</p>
         {midText.p2}
       </article>
-      <aside className='green-card'>
+      <aside className="green-card oneHalf-to-all">
         <h3>{midText.h3}</h3>
         <ul>
           <li>{midText.b1}</li>
@@ -87,10 +87,10 @@ export const TherapyPage = () => {
     </section>
     <p>{midText.p3}</p>
     <section className='carousel flex'>
-      <div className='carousel-img' style={style1} alt=""></div>
-      <div className='carousel-img' style={style2} alt=""></div>
-      <div className='carousel-img' style={style3} alt=""></div>
-      <div className='carousel-img' style={style4} alt=""></div>
+      <div className='carousel-img oneFourth-to-oneHalf' style={style1} alt=""></div>
+      <div className='carousel-img oneFourth-to-oneHalf' style={style2} alt=""></div>
+      <div className='carousel-img oneFourth-to-oneHalf' style={style3} alt=""></div>
+      <div className='carousel-img oneFourth-to-oneHalf' style={style4} alt=""></div>
      </section>
      <section>
        <h3>{wtText.h3}</h3>
@@ -98,10 +98,10 @@ export const TherapyPage = () => {
        <p>{wtText.p2}</p>
      </section>
      <section className='carousel flex'>
-      <div className='carousel-img' style={style5} alt=""></div>
-      <div className='carousel-img' style={style6} alt=""></div>
-      <div className='carousel-img' style={style7} alt=""></div>
-      <div className='carousel-img' style={style8} alt=""></div>
+      <div className='carousel-img oneFourth-to-oneHalf' style={style5} alt=""></div>
+      <div className='carousel-img oneFourth-to-oneHalf' style={style6} alt=""></div>
+      <div className='carousel-img oneFourth-to-oneHalf' style={style7} alt=""></div>
+      <div className='carousel-img oneFourth-to-oneHalf' style={style8} alt=""></div>
      </section>
      
     </>

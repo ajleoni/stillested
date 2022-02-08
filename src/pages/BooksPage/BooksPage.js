@@ -47,11 +47,11 @@ export const BooksPage = () => {
     <> 
       <h2>{firstSection.h2}</h2>
       <section className="flex left-image">
-        <aside>
+        <aside className="oneFourth-to-all">
           <br></br><br></br><br></br>
           <img src={book01} alt='cover for the book Mindfulness for børn og unge (2012)'/>
         </aside>
-        <article>
+        <article className="twoThirds-to-all">
           <h3>{firstSection.h3}</h3>
           <p>{firstSection.p1}</p>
           <p>{firstSection.p2}</p>
@@ -69,10 +69,10 @@ export const BooksPage = () => {
         </article>
       </section>
       <section className="flex left-image">
-        <aside>
+        <aside className="oneFourth-to-all">
           <img src={book02} alt="Cover for the book Mindfulness med børn (2016)"/>
         </aside>
-        <article>
+        <article className="twoThirds-to-all">
           <h3>{secondSection.h3}</h3>
           <p>{secondSection.p1}</p>
           <p>{secondSection.p2}</p>

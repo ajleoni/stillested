@@ -24,8 +24,8 @@ projectText.b3 = <p>i 2015 var jeg medudvikler af og forfatter til det resiliens
 export const AboutPage = () => {
   return (
     <>
-    <section className='article-left-text flex'>
-      <article>
+    <section className='article-left-text flex '>
+      <article className="twoThirds-to-all">
         <h2>{aboutText.h2}</h2>
         <p>{aboutText.p1}</p>
         <p>{aboutText.p2}</p>
