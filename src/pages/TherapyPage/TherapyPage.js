@@ -86,22 +86,22 @@ export const TherapyPage = () => {
       </aside>
     </section>
     <p>{midText.p3}</p>
-    <section className='carousel flex'>
-      <div className='carousel-img oneFourth-to-oneHalf' style={style1} alt=""></div>
-      <div className='carousel-img oneFourth-to-oneHalf' style={style2} alt=""></div>
-      <div className='carousel-img oneFourth-to-oneHalf' style={style3} alt=""></div>
-      <div className='carousel-img oneFourth-to-oneHalf' style={style4} alt=""></div>
+    <section className='carousel grid-4-2'>
+      <div className='carousel-img' style={style1} alt=""></div>
+      <div className='carousel-img' style={style2} alt=""></div>
+      <div className='carousel-img' style={style3} alt=""></div>
+      <div className='carousel-img' style={style4} alt=""></div>
      </section>
      <section>
        <h3>{wtText.h3}</h3>
        <p>{wtText.p1}</p>
        <p>{wtText.p2}</p>
      </section>
-     <section className='carousel flex'>
-      <div className='carousel-img oneFourth-to-oneHalf' style={style5} alt=""></div>
-      <div className='carousel-img oneFourth-to-oneHalf' style={style6} alt=""></div>
-      <div className='carousel-img oneFourth-to-oneHalf' style={style7} alt=""></div>
-      <div className='carousel-img oneFourth-to-oneHalf' style={style8} alt=""></div>
+     <section className='carousel grid-4-2'>
+      <div className='carousel-img' style={style5} alt=""></div>
+      <div className='carousel-img' style={style6} alt=""></div>
+      <div className='carousel-img' style={style7} alt=""></div>
+      <div className='carousel-img' style={style8} alt=""></div>
      </section>
      
     </>

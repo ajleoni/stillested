@@ -32,11 +32,11 @@ export const MethodPage = () => {
       <h3>{sectionText.h33}</h3>
       <p>{sectionText.p3}</p>
     </section>
-    <section className='carousel flex'>
-      <div className='carousel-img oneFourth-to-oneHalf' style={style1} alt=""></div>
-      <div className='carousel-img oneFourth-to-oneHalf' style={style2} alt=""></div>
-      <div className='carousel-img oneFourth-to-oneHalf' style={style3} alt=""></div>
-      <div className='carousel-img oneFourth-to-oneHalf' style={style4} alt=""></div>
+    <section className='carousel grid-4-2'>
+      <div className='carousel-img' style={style1} alt=""></div>
+      <div className='carousel-img' style={style2} alt=""></div>
+      <div className='carousel-img' style={style3} alt=""></div>
+      <div className='carousel-img' style={style4} alt=""></div>
      </section>
      </>
     );

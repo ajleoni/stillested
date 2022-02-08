@@ -43,7 +43,10 @@ header {
 
 
 /* css for Navigation*/
-#nav-toggle {
+#nav-open {
+    display: none;
+}
+#nav-close {
     display: none;
 }
 
@@ -59,10 +62,10 @@ header {
         background: hsl( 0 0% 0% / 0.75);
         backdrop-filter: blur(8px); 
         -webkit-backdrop-filter: blur(8px); 
-        z-index: 1001;
+        z-index: 9;
     }
 
-    #nav-toggle span {
+    #nav-close span, #nav-open span {
         display: none;
     }
 
@@ -83,25 +86,35 @@ header {
 
     #top-nav[data-visible="true"] {
         transform: translateX(0%);
-
     }
-    #nav-toggle {
-        display: block;
+    
+    .nav-button {
         position: absolute;
-        background: url("./menu.svg");
         width: 2rem;
         border: 0;
-        background-repeat: no-repeat;
         aspect-ratio: 1;
         top: 2rem;
         right: 2rem;
-        z-index: 9999;
+        z-index: 10;
     }
 
-    #nav-toggle[aria-expanded="true"] {
+    #nav-open {
+        background: url("./menu.svg");
+        display: block;
+        background-repeat: no-repeat;
+    }
+
+    #nav-close {
         background: url("./close.svg");
         background-repeat: no-repeat;
     }
 
+    #nav-open[visible="false"], #nav-close[visible="false"] {
+        display: none;
+    }
+
+    #nav-open[visible="true"], #nav-close[visible="true"] {
+        display: block;
+    }
 }
 
