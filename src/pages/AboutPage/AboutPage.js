@@ -36,13 +36,13 @@ export const AboutPage = () => {
       </article>
       <aside>
         <div>
-          <img src={aboutAside}></img>
+          <img src={aboutAside} alt="Sabrina Leoni"></img>
           <p className="center-text">Sabrina Leoni</p>
         </div>
       </aside>
     </section>
-    <img src={aboutFullPage}></img>
-    <section className='article-bullet-list'>
+    <img src={aboutFullPage} alt="A relaxing panorama"></img>
+    <section className="article-bullet-list">
       <article>
         <h2>{projectText.h2}</h2>
         <p>{projectText.p1}</p>

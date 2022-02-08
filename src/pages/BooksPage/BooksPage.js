@@ -49,7 +49,7 @@ export const BooksPage = () => {
       <section className="flex left-image">
         <aside>
           <br></br><br></br><br></br>
-          <img src={book01} alt='cover picture for the book Mindfulness for børn og unge (2012)'/>
+          <img src={book01} alt='cover for the book Mindfulness for børn og unge (2012)'/>
         </aside>
         <article>
           <h3>{firstSection.h3}</h3>

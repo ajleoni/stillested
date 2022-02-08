@@ -19,7 +19,7 @@ export const HomePage = () => {
                 <p>{homePageText.p2}</p>
                 <p>{homePageText.p3}</p>
             </section>
-            <section><img src={HomePagePicture} alt="a picture of flowers"/></section>
+            <section><img src={HomePagePicture} alt="a field of flowers"/></section>
         </article>
 
     </main>

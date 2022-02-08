@@ -66,7 +66,7 @@ export const TherapyPage = () => {
       </article>
       <aside>
         <div>
-          <img src={officePicture}></img>
+          <img src={officePicture} alt=""></img>
         </div>
       </aside>
     </section>
