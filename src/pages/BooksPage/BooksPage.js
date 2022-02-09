@@ -22,7 +22,7 @@ const secondSection = {};
 secondSection.h3 = 'Mindfulness med børn (2016)';
 secondSection.p1 = 'Min bog Mindfulness med børn - Øvelser og lege, der styrker nærvær, opmærksomhed og samvær indeholder et inspirerende katalog med øvelser og lege til de 5-12 årige – lige til at gå i gang med i klassen, børnegruppen eller på gulvet derhjemme.';
 secondSection.p2 = 'Mindfulness med børn er praksisorienteret og overskueligt bygget op. Den er skrevet til fagpersoner, der arbejder med børn i børnehaver, skoler og fritidsordninger, og kan også bruges af forældre.';
-secondSection.p3 = 'Læs et uddrag af bogen her.';
+secondSection.p3 = <><span>Læs et uddrag af bogen</span><a href="http://ipaper.ipapercms.dk/DanskPsykologiskForlag/Psykologi/Mindfulness_med_born/"> her.</a></> ;
 secondSection.p4 = 'Bogen indeholder:';
 
 secondSection.b1 ='kortfattet baggrundsviden';

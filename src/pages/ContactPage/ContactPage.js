@@ -30,9 +30,9 @@ export const ContactPage = () => {
         </div>
       </aside>
       <article className='oneThird-to-all'>
-      <p className='contact-details'><strong>{contactInfo.l1}</strong>{contactInfo.c1}</p>
-      <p className='contact-details'><strong>{contactInfo.l2}</strong>{contactInfo.c2}</p>
-      <p className='contact-details'><strong>{contactInfo.l3}</strong>{contactInfo.c3}</p>
+      <p className='contact-details word-wrap'><strong>{contactInfo.l1}</strong>{contactInfo.c1}</p>
+      <p className='contact-details word-wrap'><strong>{contactInfo.l2}</strong>{contactInfo.c2}</p>
+      <p className='contact-details word-wrap'><strong>{contactInfo.l3}</strong>{contactInfo.c3}</p>
       </article>
     </section>
   );

@@ -19,6 +19,7 @@
   --clr-eucalipto: #499280;
   --clr-maroonL: #800000;
   --clr-salmon: #FFA07A;
+  --clr-grey: #444;
 }
   
 html {
@@ -59,7 +60,7 @@ img {
 }
 
 a {
-  color:#999;
+  color: var(--clr-eucalipto);
   text-decoration: none;
 }
 
@@ -88,6 +89,7 @@ li.active-link {
 
 figure {
   display: block;
+  margin: 0;
 }
 
 aside {
@@ -102,8 +104,14 @@ aside {
 .grid-4-2 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
 }
 
+.grid-w160 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 1rem;
+}
 
 .twoThirds-to-all {
   width: 66%;
@@ -129,7 +137,7 @@ aside {
   color: var(--clr-salmon)
 }
 
-.article-3-columns p {
+.word-wrap {
   word-wrap: break-word;
 }
 
@@ -154,8 +162,6 @@ aside {
 .carousel {
   gap: 1rem;
 }
-
-
 
 
 @media (max-width: 50rem) {

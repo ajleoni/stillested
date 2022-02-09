@@ -25,11 +25,16 @@ header {
     display: block;
 }
 
+#top-nav a {
+color: var(--clr-grey);
+}
+
+
 #top-nav ul{
     list-style: none;
     display: flex;
     gap: 1.5rem;
-    margin: 0;
+    margin: 0 0.5rem 0 0;
     padding:0;
 }
 
@@ -42,6 +47,7 @@ header {
 }
 
 
+
 /* css for Navigation*/
 #nav-open {
     display: none;
@@ -50,8 +56,14 @@ header {
     display: none;
 }
 
+@media (max-width: 60rem) {
 
-@media (max-width: 50rem) {
+.top-nav-link {
+    font-size: var(--font-S);
+}    
+
+}
+@media (max-width: 55rem) {
     #top-nav {
         --gap: 2em;
         position: fixed;
