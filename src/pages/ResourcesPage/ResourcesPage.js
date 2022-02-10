@@ -1,4 +1,6 @@
 import React from "react";
+import {Link} from 'react-router-dom';
+
 import './ResourcesPage.css';
 import {AudioPlayer} from '../../cmp/AudioPlayer/AudioPlayer.js';
 import track01 from './tracks/track01.mp3';
@@ -38,8 +40,8 @@ resText.p4 ='"Coming to Our Senses" af Jon Kabat-Zinn (På engelsk)';
 resText.h41 ='Bøger til unge:';
 resText.p5 ='"Generation præstation - Slip presset. Øvelser i mindfulness til unge" af Lone Ross Nylandssted.';
 resText.h42 ='Bøger om mindfulness til børn og unge (skrevet til voksne):';
-resText.p6 ='"Mindfulness med børn - øvelser og lege, der styrker nærvær, opmærksomhed og samhørighed" af Sabrina Leoni - Læs mere om bogen her';
-resText.p7 ='"Mindfulness for børn og unge - teori og praktiske øvelser" af Sabrina Leoni - Læs mere om bogen her';
+resText.p6 = <p>"Mindfulness med børn - øvelser og lege, der styrker nærvær, opmærksomhed og samhørighed" af Sabrina Leoni - <Link to="../boeger">Læs mere om bogen her</Link></p>;
+resText.p7 =<p>"Mindfulness for børn og unge - teori og praktiske øvelser" af Sabrina Leoni - <Link to="../boeger">Læs mere om bogen her</Link></p>;
 resText.p8 ='"Nærvær og empati i skolen" af Helle Jensen';
 resText.p9 ='"Sådan får du børn i balance" af Eline Snel';
 resText.p10 ='"The Mindful Child" af Susan Kaiser Greenland';

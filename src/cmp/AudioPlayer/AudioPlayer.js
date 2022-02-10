@@ -4,9 +4,12 @@ import './AudioPlayer.css';
 export const AudioPlayer = ({source, trackName}) => {
   return (
       <>
-        <div className="audio-player flex">
-          <div className="audio-title flex"><p>{trackName}</p></div>
-          <audio src={source} controls></audio>
+        <div className="audio-player">
+          <div className="audio-title">
+            <p>{trackName}</p>
+            <audio src={source} controls></audio>
+          </div>
+          
           </div> 
       </>
     );

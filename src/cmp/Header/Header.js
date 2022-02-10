@@ -39,7 +39,7 @@ export const Header = (props) => {
         const visibility = topNav.getAttribute("data-visible");            
             if (visibility === "true") {
                  topNav.setAttribute("data-visible", false);
-                 navOpen.setAttribute("visiblle", true);
+                 navOpen.setAttribute("visible", true);
                  navClose.setAttribute("visible", false);
                 } 
         };    

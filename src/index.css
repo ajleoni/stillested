@@ -1,6 +1,6 @@
 * {
   font-family: 'Montserrat', sans-serif;
-/*  border: 1px solid red;*/
+  /* border: 1px solid red; */
 }
 
 :root {
@@ -147,9 +147,12 @@ aside {
 
 .green-card {
   background-color: var(--clr-eucalipto);
-  padding: 1rem;
   border-radius: 1rem;
 }
+
+.green-card article {
+padding: 1rem;}
+
 
 .carousel-img {
   background-position: center;

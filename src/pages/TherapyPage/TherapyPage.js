@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import './TherapyPage.css';
 import officePicture from './01-Therapy.jpg';
 import stribe01 from './stribe01.jpg';
@@ -24,7 +26,7 @@ const style8 = {backgroundImage:`url(${stribe08})`};
 
 const therapyText = {};
 therapyText.h2 = 'Terapi med unge og voksne';
-therapyText.p1 = 'Jeg har som klinisk psykolog specialiseret mig i arbejdet med unge og voksne, der oplever udfordringer i daglidagen, der påvirker deres trivsel og mentale sundhed. ';
+therapyText.p1 = 'Jeg har som klinisk psykolog specialiseret mig i arbejdet med unge og voksne, der oplever udfordringer i daglidagen, der påvirker deres trivsel og mentale sundhed.';
 therapyText.p2 = 'Typiske problemstillinger som jeg arbejder med omhandler:';
 therapyText.b1 = 'Stress og psykosomatiske symptomer';
 therapyText.b2 = 'Forskellige former for utryghed eller angst';
@@ -34,7 +36,7 @@ therapyText.b5 = 'Eksistentielle og relationelle tematikker i ungdomsårene';
 
 const midText = {};
 midText.p1 ='Er du ung og overvejer du terapi, så læs mere her. (under opbygning';
-midText.p2 =<p>Er du forælder og ønsker forældrerådgivningsforløb baseret på bevidst nærvær i forældreskabet - <a href='http://www.stillested.dk/mindfulness-til-foraeldre'>så læs mere her</a></p>;
+midText.p2 =<p>Er du forælder og ønsker forældrerådgivningsforløb baseret på bevidst nærvær i forældreskabet - <Link to="mindfulness-til-foraeldre">>så læs mere her</Link></p>;
 midText.p3 ='Min psykologpraksis ligger i hjertet af Vanløse - 500 meter fra Vanløse metro- og togstation. Når vejret tillader det, afholdes sessioner enten udenfor i haven eller i drivhuset. Ved dårligt vejr holder vi til i mit hyggelige kliniklokale.';
 midText.h3 ='Ydelser og priser:';
 midText.b1 ='En konsultation (50 min.) - 900 Kr.';
@@ -77,12 +79,14 @@ export const TherapyPage = () => {
         {midText.p2}
       </article>
       <aside className="green-card oneHalf-to-all">
-        <h3>{midText.h3}</h3>
-        <ul>
-          <li>{midText.b1}</li>
-          <li>{midText.b2}</li>
-          <li>{midText.b3}</li>
-        </ul>
+        <article>
+          <h3>{midText.h3}</h3>
+          <ul>
+            <li>{midText.b1}</li>
+            <li>{midText.b2}</li>
+            <li>{midText.b3}</li>
+          </ul>
+        </article>
       </aside>
     </section>
     <p>{midText.p3}</p>

@@ -46,13 +46,13 @@ export const BooksPage = () => {
   return (
     <> 
       <h2>{firstSection.h2}</h2>
+      <h3>{firstSection.h3}</h3>
       <section className="flex left-image">
         <aside className="oneFourth-to-all">
-          <br></br><br></br><br></br>
+          <br />
           <img src={book01} alt='cover for the book Mindfulness for børn og unge (2012)'/>
         </aside>
         <article className="twoThirds-to-all">
-          <h3>{firstSection.h3}</h3>
           <p>{firstSection.p1}</p>
           <p>{firstSection.p2}</p>
           <p>{firstSection.p3}</p>
@@ -68,12 +68,13 @@ export const BooksPage = () => {
           <p>{firstSection.p4}</p>    
         </article>
       </section>
+      <h3>{secondSection.h3}</h3>
       <section className="flex left-image">
         <aside className="oneFourth-to-all">
+          <br />
           <img src={book02} alt="Cover for the book Mindfulness med børn (2016)"/>
         </aside>
         <article className="twoThirds-to-all">
-          <h3>{secondSection.h3}</h3>
           <p>{secondSection.p1}</p>
           <p>{secondSection.p2}</p>
           <p>{secondSection.p3}</p>

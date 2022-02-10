@@ -11,6 +11,7 @@ import {TherapyPage} from '../pages/TherapyPage/TherapyPage.js';
 import {MethodPage} from '../pages/MethodPage/MethodPage.js';
 import {BooksPage} from '../pages/BooksPage/BooksPage.js';
 import {ResourcesPage} from '../pages/ResourcesPage/ResourcesPage.js';
+import {ParentsPage} from '../pages/ParentsPage/ParentsPage.js';
 
 
 function Site() {
@@ -28,6 +29,7 @@ function Site() {
           <Route path='/metode' element = {<MethodPage />} />
           <Route path='/boeger' element = {<BooksPage />} />
           <Route path='/ressourcer' element = {<ResourcesPage />} />
+          <Route path='/terapi/mindfulness-til-foraeldre' element = {<ParentsPage />} />
         </Routes>
       <div className="page-divider"></div>
       <Footer />

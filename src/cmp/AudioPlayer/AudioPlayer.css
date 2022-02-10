@@ -1,16 +1,21 @@
 .audio-player {
-    margin-block: 1rem;
+    max-width: 650px;
+    margin-block-end: 1rem;
 }
 
 .audio-title {
-    height: 54px;
-    background-color: #eee;
-    border-radius: 26px;
-    margin-right: 1rem;
-    padding-inline: 1rem;
-    align-items: center;
-    width: 60%;
+    padding: 0.75rem;
+    background-color: #ddd;
+    border-radius: 10px;
 }
 
 .audio-title p {
-    font-size: var(--font-S);}
+    font-size: var(--font-S);
+    margin-inline-start: 1rem;
+    margin-block-start: 0.5rem;
+}
+
+audio {
+    margin : 0;
+    width: 100%;
+}
