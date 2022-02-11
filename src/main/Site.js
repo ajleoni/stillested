@@ -13,6 +13,8 @@ import {ResourcesPage} from '../pages/ResourcesPage/ResourcesPage.js';
 import {ParentsPage} from '../pages/ParentsPage/ParentsPage.js';
 import {NewsPage} from '../pages/NewsPage/NewsPage.js';
 
+//News Section
+import { NewsList } from '../pages/NewsPage/NewsList';
 //News Articles
 import {Article01} from '../pages/NewsPage/Articles/Article01.js';
 import {Article02} from '../pages/NewsPage/Articles/Article02.js';
@@ -41,12 +43,14 @@ function Site() {
             <Route path='/' exact element = {<HomePage />} />
             <Route path='/about' element = {<AboutPage />} />
             <Route path='/kontakt' element = {<ContactPage />} />
-            <Route path='/nyheder' exact element = {<NewsPage />} />
-            <Route path='/nyheder/01' element = {<Article01 />} ></Route>
-            <Route path='/nyheder/02' element = {<Article02 />} ></Route>
-            <Route path='/nyheder/03' element = {<Article03 />} ></Route>
-            <Route path='/nyheder/04' element = {<Article04 />} ></Route>
-            <Route path='/nyheder/05' element = {<Article05 />} ></Route>
+            <Route path='/nyheder' exact element = {<NewsPage />} >
+              <Route index element = {<NewsList />} ></Route>
+              <Route path='01' element = {<Article01 />} ></Route>
+              <Route path='02' element = {<Article02 />} ></Route>
+              <Route path='03' element = {<Article03 />} ></Route>
+              <Route path='04' element = {<Article04 />} ></Route>
+              <Route path='05' element = {<Article05 />} ></Route>
+            </Route>
             <Route path='/terapi' element = {<TherapyPage />} />
             <Route path='/metode' element = {<MethodPage />} />
             <Route path='/boeger' element = {<BooksPage />} />

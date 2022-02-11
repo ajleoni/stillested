@@ -67,9 +67,9 @@ export const Header = (props) => {
                 <Link to="kontakt">
                     <li className='top-nav-link' onClick={handleClick}>KONTAKT</li>
                     </Link>
-                <a href="/nyheder">
+                <Link to="nyheder">
                     <li className='top-nav-link' onClick={handleClick}>NYHEDER</li>
-                </a>
+                </Link>
             </ul>
         </nav>
     </header>
