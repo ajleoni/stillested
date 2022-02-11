@@ -13,7 +13,7 @@ export const NewsList = () => {
         <Link to={item.link}>
           <section className="news">
               <aside>
-                <img src={item.img}></img>
+                <img alt="" src={item.img}></img>
               </aside>
               <article>
                 <h2>{item.title}</h2>

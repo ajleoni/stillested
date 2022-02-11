@@ -16,7 +16,7 @@ export const NewsArticle = ({articleData}) => {
         <section>
             <aside>
                 <div className="article-img">
-                    <img src={articleData.img}/>
+                    <img alt="" src={articleData.img}/>
                 </div>
             </aside>
             <article className="news-article">
