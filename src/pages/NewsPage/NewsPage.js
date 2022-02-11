@@ -1,11 +1,11 @@
 import React from "react";
-import {Outlet} from 'react-router-dom';
+import { NewsList } from "./NewsList";
 import './NewsPage.css';
 
 export const NewsPage = () => {
   return (
     <>
-    <Outlet></Outlet>
+    <NewsList />
     </>
     );
 };
