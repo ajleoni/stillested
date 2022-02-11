@@ -13,8 +13,6 @@ import {ResourcesPage} from '../pages/ResourcesPage/ResourcesPage.js';
 import {ParentsPage} from '../pages/ParentsPage/ParentsPage.js';
 import {NewsPage} from '../pages/NewsPage/NewsPage.js';
 
-//News Section
-import { NewsList } from '../pages/NewsPage/NewsList';
 //News Articles
 import {Article01} from '../pages/NewsPage/Articles/Article01.js';
 import {Article02} from '../pages/NewsPage/Articles/Article02.js';
