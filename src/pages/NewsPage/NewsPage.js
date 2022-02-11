@@ -1,8 +1,11 @@
 import React from "react";
+import {Outlet} from 'react-router-dom';
 import './NewsPage.css';
 
 export const NewsPage = () => {
   return (
-    <h1>Here are the latest News.</h1>
+    <>
+    <Outlet></Outlet>
+    </>
     );
 };
