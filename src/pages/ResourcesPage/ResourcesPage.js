@@ -23,7 +23,7 @@ const tName04 ='04 Ungeøvelse:  Dyb vejrtrækning';
 const tName05 ='05 Ungeøvelse: Kropsscanning';
 const tName06 ='06 Ungeøvelse: Opmærksomhed på vejrtrækning';
 const tName07 ='07 Ungeøvelse: Opmærksomhed på vejrtrækning og krop';
-const tName08 ='08 Vokesnøvelse: Åndedrætsmeditation';
+const tName08 ='08 Voksenøvelse: Åndedrætsmeditation';
 const tName09 ='09 Vokesnøvelse: Kropsscanning';
 
 const soundfileText = {};
